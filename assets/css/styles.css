@@ -1,5 +1,5 @@
 /*===== GOOGLE FONTS =====*/
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&amp;family=Ovo&amp;display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
@@ -10,8 +10,9 @@
   --hue-color: 224;
   --first-color: hsl(var(--hue-color), 89%, 60%);
   --second-color: hsl(var(--hue-color), 56%, 12%);
+  
   /*===== Fuente y tipografia =====*/
-  --body-font: "Outfit", normal;
+  --body-font: "PT Serif", serif;
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: .938rem;
