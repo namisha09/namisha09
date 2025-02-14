@@ -17,6 +17,7 @@
 
   /*===== Fuente y tipografia =====*/
   --body-font: "Cormorant Garamond", serif;
+  --ui-font: "Roboto", sans-serif; /* Example Sans-Serif */
   --big-font-size: 2.75rem;       /* Increased h1 size */
   --h2-font-size: 1.75rem;        /* Increased h2 size */
   --normal-font-size: 1.125rem;        /* Standard text size */
@@ -79,6 +80,10 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+.nav__link, .button {
+  font-family: var(--ui-font);
 }
 
 /*===== CLASS CSS ===== */
