@@ -58,7 +58,6 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
-  background: linear-gradient(to right, #f9f9f9, #f2f2f2);
 }
 
 h1,
