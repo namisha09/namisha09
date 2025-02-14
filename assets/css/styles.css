@@ -82,12 +82,6 @@ img {
   display: block;
 }
 
-/* Apply the --ui-font to nav links and buttons */
-.nav__link,
-.button {
-  font-family: var(--ui-font);
-}
-
 /*===== CLASS CSS ===== */
 .section-title {
   position: relative;
