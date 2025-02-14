@@ -179,7 +179,7 @@ img {
 
 .nav__logo {
   color: var(--second-color);
-  font-size: 1.5rem; /* Increased font size by 50% */
+  font-size: 2 rem; 
 }
 
 .nav__toggle {
