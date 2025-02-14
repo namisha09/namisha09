@@ -15,10 +15,16 @@
 
   /*===== Fuente y tipografia =====*/
   --body-font: "Cormorant Garamond", serif;
+  --big-font-size: 2.75rem; /* Increased h1 size */
+  --h2-font-size: 1.75rem; /* Increased h2 size */
+  --normal-font-size: 1.125rem; /* Standard text size */
+  --smaller-font-size: 1rem; /* Smaller text size */
+
+  /*
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: .938rem;
-  --smaller-font-size: .75rem;
+  --smaller-font-size: .75rem; */
 
   /* Adjust font weights */
   --heading-font-weight: 600; /* Or 700 for bolder headings */
@@ -37,10 +43,16 @@
 
 @media screen and (min-width: 968px) {
   :root {
+    /*
     --big-font-size: 3.5rem;
     --h2-font-size: 2rem;
     --normal-font-size: 1rem;
-    --smaller-font-size: .875rem;
+    --smaller-font-size: .875rem; */
+    --big-font-size: 4.25rem; /* Increased h1 size */
+    --h2-font-size: 2.25rem; /* Increased h2 size */
+    --normal-font-size: 1.25rem; /* Standard text size */
+    --smaller-font-size: 1.125rem; /* Smaller text size */
+    
   }
 }
 
@@ -179,6 +191,7 @@ img {
 
 .nav__logo {
   color: var(--second-color);
+  font-size: 1.5rem; /* Increased font size by 50% */
 }
 
 .nav__toggle {
@@ -217,6 +230,7 @@ img {
 .home__title {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
+  line-height: 1.4; /* Adjusted line height */
 }
 
 .home__title-color {
