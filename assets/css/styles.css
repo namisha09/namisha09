@@ -12,6 +12,8 @@
   --hue-color: 224;
   --first-color: hsl(var(--hue-color), 89%, 60%);
   --second-color: hsl(var(--hue-color), 56%, 12%);
+  --text-color: #333;  /*A neutral text color*/
+  --background-color: #f9f9f9; /* Light background */
 
   /*===== Fuente y tipografia =====*/
   --body-font: "Cormorant Garamond", serif;
