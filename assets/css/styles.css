@@ -201,7 +201,7 @@ img {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
   line-height: 1.4; /* Adjusted line height */
-  font-size: 2rem;  /* Added just now */
+  font-size: 2.25rem;  /* Added just now */
 }
 .home__title-color {
   color: var(--first-color);
